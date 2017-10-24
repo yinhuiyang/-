@@ -1,0 +1,192 @@
+@charset "UTF-8";
+html,body,ul,li,ol,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{
+  margin: 0;padding: 0;
+}
+fieldset,img,input,button{border: none;padding: 0;margin: 0;outline-style: none;}
+ul,li{list-style: none;}
+input{padding-top:0;padding-bottom:0;font-family: "SimSun","宋体";}
+select,input{vertical-align: middle;}
+select,input,textarea{font-size: 12px;margin: 0;}
+textarea{resize: none;}
+img{border: none;vertical-align: middle;} /*去掉图片底侧默认的3px间隙*/
+table{border-collapse: collapse;}
+
+body{
+ font: 12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+    color: #666;
+   background:#f6f6f6;
+}
+@charset "UTF-8";
+/*清除默认类*/
+*{
+		margin: 0;padding:0;
+	}
+body{
+		font:  normal 12px Verdana,simsun,Sans-Serif;
+}
+a{	
+	color: #666666 ;
+	text-decoration: none;
+}
+a:hover{
+	color: #e5004f;
+}
+li{
+	list-style: none;
+}
+i{
+	display: inline-block;
+}
+/*div类 随时可以修改*/
+.wrap{
+	margin: 0 auto;
+	width: 1190px;
+	}
+.wrap2{
+	width: 920px;
+	margin: 0 auto;
+}
+.wrap3{
+	margin: 0 auto;
+	width: 1210px;
+	overflow: hidden;
+}
+.wrap4{
+	margin: 0 auto;
+	width: 990px;
+}
+.wrap5{
+	margin: 0 auto;
+	width: 1390px;
+}
+
+/*位置样式类 position float*/
+
+.ovfl{
+	overflow:hidden;
+}
+.clearfix:after,.clearfix:before{/*清除浮动*/
+   content: "";
+   display: table;
+}
+.clearfix:after{
+   clear: both;
+}
+.clearfix{
+  *zoom:1; /*兼容IE和IE7*/
+}
+.fl{
+	float: left;
+}
+.fr{
+	float:right;
+}
+.pore{
+	position: relative;
+}
+.poab{
+	position: absolute;
+}
+/*font*/
+.wei12{
+	font:12px "微软雅黑";
+}
+.ac{
+	text-align:center;
+}
+input[type=search]::-webkit-input-placeholder{
+    color: #888;
+    /*text-indent: 15px;*/
+}
+input[type=search]::-webkit-search-cancel-button{
+    -webkit-appearance: none;//此处只是去掉默认的小×
+}
+input[type=search]{
+	border:2px solid black;
+	color: #888;
+	outline: none;
+	padding-left: 15px;
+}
+.clearfix:after,.clearfix:before{  /*清除浮动*/
+   content: "";
+   display: table;
+}
+.clearfix:after{
+   clear: both;
+}
+.clearfix{
+  *zoom:1; /*兼容IE和IE7*/
+}
+a{color:#666;text-decoration: none;}
+a:hover{color: #C81623;}
+h1,h2,h3,h4,h6{text-decoration: none;font-weight: normal;}
+s,i{font-style: normal;text-decoration: none;}
+.col-red{color: #C81623 !important;}
+em{
+	font-style: normal;text-decoration: none;
+}
+/* end css Reset*/
+
+/*公共类*/
+.wrap{  /*版心*/
+  width: 1190px;
+  min-width: 1190px;
+  margin: 0 auto;
+}
+.por{
+  position: relative;
+}
+.poa{
+  position: absolute;
+}
+.fl{float: left;}
+.fr{float: right;}
+.al{
+   text-align: left;
+}
+.ac{
+   text-align: center;;
+}
+.ar{
+   text-align: right;;
+}
+.hide{
+  display: none;
+}
+
+.font14{
+  font-size: 14px;
+}
+.font16{
+  font-size: 16px;
+}
+.fontSim{
+  font-family: SimSun,"宋体";
+}
+/*@font-face {
+  font-family: 'iconfont';  /* project id 430493 */
+  /*src: url('//at.alicdn.com/t/font_430493_tevtr2p3fxdy4x6r.eot');
+  src: url('//at.alicdn.com/t/font_430493_tevtr2p3fxdy4x6r.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_430493_tevtr2p3fxdy4x6r.woff') format('woff'),
+  url('//at.alicdn.com/t/font_430493_tevtr2p3fxdy4x6r.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_430493_tevtr2p3fxdy4x6r.svg#iconfont') format('svg');
+}*/
+/*.iconfont{
+    font-family:"iconfont" !important;
+    font-size:14px;
+    font-style:normal;
+    color: #d81e06;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}*/
+.topfrbg{  
+ /*  top区域|的背景图 */
+  background: url(../images/topfrbg.png) no-repeat right;
+
+}
+.bgiconlist{
+   /*  背景图为iconlist.png */
+   background-image: url(images/iconlist.png);
+   background-repeat:no-repeat ;
+}
+/*end 公共类*/

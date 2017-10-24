@@ -1,0 +1,131 @@
+.footer{
+	font-family: "微软雅黑";
+	margin-top: 30px;
+	height: 500px;
+    background-color: #eaeaea;
+}
+.footer .wrap{
+	height: 500px;
+}
+.mod-sercive{
+	width: 100%;
+	padding: 30px 0;
+    border-bottom: 1px solid #dedede;
+}
+.mod-sercive ul{
+	overflow: hidden;
+	height: 42px;
+}
+.mod-sercive li{
+	float: left;
+    width: 297px;
+}
+.unit{
+	position: relative;
+    margin: 0 auto;
+    padding-left: 45px;
+    width: 180px;
+}
+.unit h5{
+	overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 36px;
+    height: 42px;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index/2.0.0/home/images/ico_service.png);
+    text-indent: -999px;
+}
+.unit p{
+	overflow: hidden;
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #444;
+}
+.help-inner{
+	margin-top: 20px;
+	height: 160px;
+}
+.help-nav{
+	float: left;
+    width: 198px;
+    line-height: 22px;
+}
+.help-nav h5{
+	margin-bottom: 5px;
+    font-size: 14px;
+}
+.help-cover{
+	float: right;
+    width: 200px;
+    height: 150px;
+    background: url(//misc.360buyimg.com/mtd/pc/index/2.0.0/home/images/ico_footer.png) no-repeat 0 0;
+}
+.help-cover h5{
+	    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+.help-cover p{
+	padding: 0 10px;
+}
+.help-cover a{
+	float: right;
+}
+.copy-right{
+	padding: 15px 0;
+    border-top: 1px solid #e1e1e1;
+    text-align: center;
+}
+.copy-right span{
+	margin: 0 10px;
+    color: #ccc;
+}
+.copy-right-info{
+    line-height: 22px;
+    color: #999;
+    text-align: center;
+}
+.copy-right-info .lines{
+	margin: 0 10px;
+    color: #ccc;
+}
+.copy-right-info a{
+	color: #999;
+}
+.auth{
+	text-align: center;
+	margin-top: 15px;
+}
+.auth a{
+	overflow: hidden;
+    display: inline-block;
+    margin: 0 3px;
+    width: 103px;
+    height: 32px;
+    background-image: url(//misc.360buyimg.com/mtd/pc/index/2.0.0/home/images/ico_footer.png);
+    line-height: 1000px;
+}
+.a1{
+	background-position: 0 -151px;
+}
+.a2{
+	background-position: -104px -151px;
+}
+.a3{
+	background-position: 0 -184px;
+}
+.a4{
+	background-position: -104px -184px;
+}
+.a5{
+	    background-position: 0 -217px;
+}
+.a6{
+	background-position: -104px -217px;
+}
